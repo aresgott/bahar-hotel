@@ -13,8 +13,9 @@
     "node": "22.x"
   },
   "dependencies": {
-    "ajv": "8.12.0",
-    "ajv-keywords": "5.1.0",
+    "ajv": "6.12.6",
+    "ajv-keywords": "3.5.2",
+    "schema-utils": "2.7.1",
     "leaflet": "^1.9.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -23,31 +24,38 @@
     "react-scripts": "5.0.1"
   },
   "overrides": {
-    "ajv": "8.12.0",
+    "ajv": "6.12.6",
     "ajv-keywords": {
-      "ajv": "8.12.0"
+      "ajv": "6.12.6"
     },
     "schema-utils": {
-      "ajv": "8.12.0",
+      "ajv": "6.12.6",
       "ajv-keywords": {
-        "ajv": "8.12.0"
+        "ajv": "6.12.6"
       }
     },
     "terser-webpack-plugin": {
-      "schema-utils": {
-        "ajv": "8.12.0",
-        "ajv-keywords": {
-          "ajv": "8.12.0"
-        }
-      }
+      "schema-utils": "2.7.1"
     },
     "webpack": {
-      "schema-utils": {
-        "ajv": "8.12.0",
-        "ajv-keywords": {
-          "ajv": "8.12.0"
-        }
+      "schema-utils": "2.7.1"
+    },
+    "fork-ts-checker-webpack-plugin": {
+      "schema-utils": "2.7.1",
+      "ajv": "6.12.6",
+      "ajv-keywords": {
+        "ajv": "6.12.6"
       }
+    },
+    "react-scripts": {
+      "fork-ts-checker-webpack-plugin": {
+        "schema-utils": "2.7.1",
+        "ajv": "6.12.6",
+        "ajv-keywords": {
+          "ajv": "6.12.6"
+        }
+      },
+      "schema-utils": "2.7.1"
     }
   },
   "browserslist": {
