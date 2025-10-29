@@ -17,8 +17,9 @@
     "typescript": "^4.9.5"
   },
   "overrides": {
-    "ajv-keywords": "3.5.2",
-    "schema-utils": "^4.0.0"
+    "schema-utils": "3.1.1",
+    "ajv": "6.12.6",
+    "ajv-keywords": "3.5.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -42,6 +43,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "engines": {
+    "node": "20.x"
   }
 }
 
