@@ -10,7 +10,7 @@
     "eject": "react-scripts eject"
   },
   "engines": {
-    "node": "18.x"
+    "node": "22.x"
   },
   "dependencies": {
     "leaflet": "^1.9.3",
@@ -19,6 +19,12 @@
     "react-leaflet": "^4.2.1",
     "react-router-dom": "^6.8.0",
     "react-scripts": "5.0.1"
+  },
+  "overrides": {
+    "ajv-keywords": {
+      "ajv": "^6.12.6"
+    },
+    "ajv": "^6.12.6"
   },
   "browserslist": {
     "production": [
