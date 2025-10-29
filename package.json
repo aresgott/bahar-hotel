@@ -19,7 +19,8 @@
   "overrides": {
     "schema-utils": "3.1.1",
     "ajv": "6.12.6",
-    "ajv-keywords": "3.5.2"
+    "ajv-keywords": "3.5.2",
+    "fork-ts-checker-webpack-plugin": "6.5.3"
   },
   "scripts": {
     "start": "react-scripts start",
